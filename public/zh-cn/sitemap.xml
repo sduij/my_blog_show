@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2025-02-14T14:08:19+08:00</lastmod>
+    <lastmod>2025-02-16T12:59:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,7 +21,10 @@
                 />
   </url><url>
     <loc>https://example.com/post/</loc>
-    <lastmod>2025-02-14T14:08:19+08:00</lastmod>
+    <lastmod>2025-02-16T12:59:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/p/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/</loc>
+    <lastmod>2025-02-16T12:59:35+08:00</lastmod>
   </url><url>
     <loc>https://example.com/p/%E5%A4%8D%E6%B4%BB%E8%8A%82%E7%9C%8B%E7%94%B5%E8%A7%86/</loc>
     <lastmod>2025-02-14T14:08:19+08:00</lastmod>
