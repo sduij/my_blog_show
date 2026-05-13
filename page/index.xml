@@ -21,7 +21,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;p&gt;你好，我是 Chovy。&lt;/p&gt;
+&lt;p&gt;这里以后会放我的自我介绍、学习方向、正在做的事情，以及我想长期记录下来的内容。&lt;/p&gt;
+&lt;p&gt;目前这个页面先保持简单，后面我会慢慢补充：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我是谁&lt;/li&gt;
+&lt;li&gt;我在学什么&lt;/li&gt;
+&lt;li&gt;我最近在写什么&lt;/li&gt;
+&lt;li&gt;我平时关注哪些方向&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果你看到了这里，说明这个博客已经开始认真用了。&lt;/p&gt;
 </description>
         </item>
         <item>
