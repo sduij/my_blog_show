@@ -10,7 +10,7 @@ DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 languages:
     en:
@@ -29,12 +29,13 @@ languages:
                 subtitle: 演示说明
     ar:
         languageName: عربي
-        languagedirection: rtl
+        languageDirection: rtl
         title: موقع تجريبي
         weight: 3
         params:
             sidebar:
                 subtitle: وصف تجريبي
+
 
 services:
     # Change it to your Disqus shortname before using
@@ -56,7 +57,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: "/favicon.ico"  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
