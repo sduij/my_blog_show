@@ -21,16 +21,29 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;你好，我是 Chovy。&lt;/p&gt;
-&lt;p&gt;这里以后会放我的自我介绍、学习方向、正在做的事情，以及我想长期记录下来的内容。&lt;/p&gt;
-&lt;p&gt;目前这个页面先保持简单，后面我会慢慢补充：&lt;/p&gt;
+        <description>&lt;p&gt;你好，我是 Chovy，欢迎来到我的博客。&lt;/p&gt;
+&lt;p&gt;这里主要用来记录我的学习过程、折腾经历，以及一些值得留下来的想法。&lt;/p&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;p&gt;我希望把这里当成一个长期更新的个人空间。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;我是谁&lt;/li&gt;
-&lt;li&gt;我在学什么&lt;/li&gt;
-&lt;li&gt;我最近在写什么&lt;/li&gt;
-&lt;li&gt;我平时关注哪些方向&lt;/li&gt;
+&lt;li&gt;记录学习中的重点和踩过的坑&lt;/li&gt;
+&lt;li&gt;整理自己真正理解过的内容&lt;/li&gt;
+&lt;li&gt;把零散的经验沉淀成以后还能回看的文章&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;如果你看到了这里，说明这个博客已经开始认真用了。&lt;/p&gt;
+&lt;h2 id=&#34;这个博客会写什么&#34;&gt;这个博客会写什么
+&lt;/h2&gt;&lt;p&gt;目前会优先记录这些内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编程学习中的笔记和实战问题&lt;/li&gt;
+&lt;li&gt;博客搭建、主题调整、部署过程中的经验&lt;/li&gt;
+&lt;li&gt;一些日常折腾时遇到的技术问题&lt;/li&gt;
+&lt;li&gt;偶尔写一点个人想法和阶段总结&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我希望它是什么样子&#34;&gt;我希望它是什么样子
+&lt;/h2&gt;&lt;p&gt;我不想把这里做成只堆资料的地方，也不想只是复制粘贴别人的结论。&lt;/p&gt;
+&lt;p&gt;更希望这里的每一篇文章，都是我自己真正看过、做过、理解过之后留下来的东西。哪怕写得慢一点，也尽量写得清楚一点。&lt;/p&gt;
+&lt;h2 id=&#34;现在的状态&#34;&gt;现在的状态
+&lt;/h2&gt;&lt;p&gt;这个博客刚重新开始整理，很多地方还在慢慢调整。&lt;/p&gt;
+&lt;p&gt;如果你以后看到这里的内容越来越多，那说明我确实有在认真把它继续写下去。&lt;/p&gt;
 </description>
         </item>
         <item>
