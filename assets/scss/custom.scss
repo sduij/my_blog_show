@@ -1,0 +1,16 @@
+.left-sidebar .site-avatar .site-logo {
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (min-width: 1024px) {
+  .container.extended {
+    --right-sidebar-max-width: 24%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container.extended {
+    --right-sidebar-max-width: 20%;
+  }
+}

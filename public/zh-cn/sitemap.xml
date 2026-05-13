@@ -68,18 +68,18 @@
     <loc>https://example.com/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2026-05-13T15:21:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/links/</loc>
-  </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://example.com/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/test/</loc>
   </url><url>
     <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+  </url><url>
+    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
+  </url><url>
+    <loc>https://example.com/search/</loc>
   </url>
 </urlset>

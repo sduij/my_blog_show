@@ -22,11 +22,11 @@ languages:
                 subtitle: Example description
     zh-cn:
         languageName: 中文
-        title: 演示站点
+        title: 为了拯救世界，我决定成为...
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
+                subtitle: 我Chovy,TMD简介给我改好了呀！
     ar:
         languageName: عربي
         languageDirection: rtl
@@ -68,12 +68,12 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        # emoji: 🍥
+        subtitle: 我Chovy,TMD简介给我改好了呀！
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: /img/momo-avatar.png
 
     article:
         math: false
