@@ -5,7 +5,7 @@
     <loc>https://example.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/categories/"
                 />
     <xhtml:link
@@ -22,7 +22,7 @@
     <loc>https://example.com/en/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/"
                 />
     <xhtml:link
@@ -39,7 +39,7 @@
     <loc>https://example.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/tags/"
                 />
     <xhtml:link

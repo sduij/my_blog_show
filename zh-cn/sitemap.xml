@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2025-08-27T19:30:28+08:00</lastmod>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,24 +16,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/"
                 />
   </url><url>
-    <loc>https://example.com/zh-cn/</loc>
-    <lastmod>2025-08-27T19:30:28+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2025-02-16T12:59:35+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/</loc>
-    <lastmod>2025-02-16T12:59:35+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/%E5%A4%8D%E6%B4%BB%E8%8A%82%E7%9C%8B%E7%94%B5%E8%A7%86/</loc>
-    <lastmod>2025-02-14T14:08:19+08:00</lastmod>
-  </url><url>
     <loc>https://example.com/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -46,15 +34,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/categories/"
                 />
   </url><url>
-    <loc>https://example.com/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/tags/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -67,18 +52,21 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-cn"
+                hreflang="en-us"
                 href="https://example.com/tags/"
                 />
   </url><url>
-    <loc>https://example.com/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/zh-cn/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/tags/%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://example.com/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/zh-cn/post/my-first-post/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
   </url><url>
     <loc>https://example.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -89,6 +77,8 @@
     <loc>https://example.com/links/</loc>
   </url><url>
     <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://example.com/categories/test/</loc>
   </url><url>
     <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
   </url>
