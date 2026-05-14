@@ -25,7 +25,7 @@ languages:
         params:
             description: 写代码、搭博客，也记录那些值得留下来的片段。
             sidebar:
-                subtitle: 写代码、搭博客，也记录那些值得留下来的片段。
+                subtitle: 为了拯救世界，我决定成为...
             footer:
                 customText: 慢一点写，也写成自己的样子。
 
@@ -58,7 +58,7 @@ params:
 
     sidebar:
         compact: false
-        subtitle: 写代码、搭博客，也记录那些值得留下来的片段。
+        subtitle: 为了拯救世界，我决定成为...
         avatar:
             enabled: true
             local: false
