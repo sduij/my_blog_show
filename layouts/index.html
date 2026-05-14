@@ -1,8 +1,179 @@
 {{ define "main" }}
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $filtered := ($pages | intersect $notHidden) }}
-    {{ $pag := .Paginate ($filtered) }}
+    {{ $posts := ($pages | intersect $notHidden).ByDate.Reverse }}
+    {{ $listPages := $posts }}
+    {{ if gt (len $posts) 1 }}
+        {{ $listPages = after 1 $posts }}
+    {{ end }}
+    {{ $pag := .Paginate ($listPages) }}
+    {{ $categoryPage := .Site.GetPage "taxonomyTerm" "categories" }}
+    {{ $tagPage := .Site.GetPage "taxonomyTerm" "tags" }}
+    {{ $aboutURL := "" }}
+    {{ $archivesURL := "" }}
+    {{ range .Site.Menus.main }}
+        {{ if eq (default "" .Params.Icon) "user" }}
+            {{ $aboutURL = .URL }}
+        {{ end }}
+        {{ if eq (default "" .Params.Icon) "archives" }}
+            {{ $archivesURL = .URL }}
+        {{ end }}
+    {{ end }}
+
+    <section class="home-hero">
+        <div class="home-hero-grid">
+            <article class="home-intro-card">
+                <p class="home-eyebrow">Author Journal</p>
+                <h1 class="home-heading">把学到的东西写下来，也把值得留下来的片段慢慢收好。</h1>
+                <p class="home-summary">
+                    {{ with .Site.Params.description }}
+                        {{ . }}
+                    {{ else }}
+                        {{ .Site.Params.sidebar.subtitle }}
+                    {{ end }}
+                </p>
+
+                <div class="home-actions">
+                    <a class="home-button" href="#latest">开始阅读</a>
+                    {{ if $aboutURL }}
+                        <a class="home-button secondary" href="{{ $aboutURL }}">关于我</a>
+                    {{ end }}
+                </div>
+
+                <div class="home-stats">
+                    <div class="home-stat">
+                        <span class="home-stat-value">{{ len $posts }}</span>
+                        <span class="home-stat-label">篇文章</span>
+                    </div>
+                    <div class="home-stat">
+                        <span class="home-stat-value">{{ len .Site.Taxonomies.categories }}</span>
+                        <span class="home-stat-label">个分类</span>
+                    </div>
+                    <div class="home-stat">
+                        <span class="home-stat-value">{{ len .Site.Taxonomies.tags }}</span>
+                        <span class="home-stat-label">个标签</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="home-featured-card">
+                {{ with first 1 $posts }}
+                    {{ range . }}
+                        <p class="home-card-label">最近更新</p>
+                        <h2 class="home-featured-title">
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </h2>
+
+                        {{ with .Params.description }}
+                            <p class="home-featured-summary">{{ . }}</p>
+                        {{ end }}
+
+                        {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "home-featured" -}}
+                        {{ if $image.exists }}
+                            <div class="home-featured-image">
+                                {{ if $image.resource }}
+                                    {{- $Permalink := $image.resource.RelPermalink -}}
+                                    {{- $Width := $image.resource.Width -}}
+                                    {{- $Height := $image.resource.Height -}}
+                                    {{- if (default true .Page.Site.Params.imageProcessing.cover.enabled) -}}
+                                        {{- $thumbnail := $image.resource.Fill "720x420" -}}
+                                        {{- $Permalink = $thumbnail.RelPermalink -}}
+                                        {{- $Width = $thumbnail.Width -}}
+                                        {{- $Height = $thumbnail.Height -}}
+                                    {{- end -}}
+                                    <img src="{{ $Permalink }}" width="{{ $Width }}" height="{{ $Height }}" alt="{{ .Title }}" loading="lazy">
+                                {{ else }}
+                                    <img src="{{ $image.permalink }}" alt="{{ .Title }}" loading="lazy">
+                                {{ end }}
+                            </div>
+                        {{ end }}
+
+                        <div class="home-featured-meta">
+                            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                                {{- .Date | time.Format (or .Site.Params.dateFormat.published "2006-01-02") -}}
+                            </time>
+                            {{ with .Params.categories }}
+                                <span>{{ index . 0 }}</span>
+                            {{ end }}
+                        </div>
+
+                        <a class="home-inline-link" href="{{ .RelPermalink }}">继续阅读</a>
+                    {{ end }}
+                {{ else }}
+                    <p class="home-card-label">开始写作</p>
+                    <h2 class="home-featured-title">这里会慢慢长成一间真正属于自己的作者主页。</h2>
+                    <p class="home-featured-summary">等第一批文章稳定下来之后，这里会成为首页的主要推荐位置，用来放最近更新或最值得先读的一篇。</p>
+                {{ end }}
+            </article>
+        </div>
+    </section>
+
+    <section class="home-overview">
+        <article class="home-overview-card">
+            <p class="home-card-label">写作方向</p>
+            <h2>这里主要会写什么</h2>
+            <ul class="home-overview-list">
+                <li>编程学习中的实战记录、问题排查和理解整理。</li>
+                <li>博客搭建、主题调整、部署过程里的经验沉淀。</li>
+                <li>值得留下来的阶段总结、零散想法和长期笔记。</li>
+            </ul>
+        </article>
+
+        <article class="home-overview-card">
+            <p class="home-card-label">从这里开始</p>
+            <h2>先看这些入口</h2>
+            <div class="home-link-list">
+                {{ if $aboutURL }}
+                    <a class="home-link-card" href="{{ $aboutURL }}">
+                        <span class="home-link-title">关于我</span>
+                        <span class="home-link-desc">先认识这个博客会记录什么</span>
+                    </a>
+                {{ end }}
+                {{ if $archivesURL }}
+                    <a class="home-link-card" href="{{ $archivesURL }}">
+                        <span class="home-link-title">归档</span>
+                        <span class="home-link-desc">按时间查看所有已经发布的内容</span>
+                    </a>
+                {{ end }}
+                {{ with $categoryPage }}
+                    <a class="home-link-card" href="{{ .RelPermalink }}">
+                        <span class="home-link-title">分类</span>
+                        <span class="home-link-desc">从主题角度进入你感兴趣的内容</span>
+                    </a>
+                {{ end }}
+            </div>
+        </article>
+
+        <article class="home-overview-card">
+            <p class="home-card-label">常写主题</p>
+            <h2>最近在聚焦这些内容</h2>
+            <div class="home-topic-list">
+                {{ with first 5 .Site.Taxonomies.categories.ByCount }}
+                    {{ range . }}
+                        <a class="home-topic-chip" href="{{ .Page.RelPermalink }}">
+                            <span>{{ .Page.Title }}</span>
+                            <small>{{ .Count }}</small>
+                        </a>
+                    {{ end }}
+                {{ else }}
+                    <p class="home-empty-text">等文章再多一点，这里会显示常写主题。</p>
+                {{ end }}
+            </div>
+            {{ with $tagPage }}
+                <a class="home-inline-link" href="{{ .RelPermalink }}">查看全部标签</a>
+            {{ end }}
+        </article>
+    </section>
+
+    <section class="home-section-header" id="latest">
+        <div>
+            <p class="home-card-label">Latest Writing</p>
+            <h2>最近更新</h2>
+        </div>
+        {{ if $archivesURL }}
+            <a class="home-inline-link" href="{{ $archivesURL }}">查看完整归档</a>
+        {{ end }}
+    </section>
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}

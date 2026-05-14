@@ -5,21 +5,35 @@
     {{- end -}}
 {{ end }}
 {{ define "main" }}
-<form action="{{ .RelPermalink }}" class="search-form"{{ with .OutputFormats.Get "json" -}} data-json="{{ .RelPermalink }}"{{- end }}>
-    <p>
-        <label>{{ T "search.title" }}</label>
-        <input name="keyword" placeholder="{{ T `search.placeholder` }}" />
-    </p>
+<section class="search-shell">
+    <header class="search-hero">
+        <p class="home-card-label">Search</p>
+        <h1 class="search-hero-title">{{ .Title }}</h1>
+        <p class="search-hero-summary">
+            {{ with .Description }}
+                {{ . }}
+            {{ else }}
+                通过标题、正文和配图信息，快速找到你想回看的文章与笔记。
+            {{ end }}
+        </p>
+    </header>
 
-    <button title="{{ T `search.title` }}">
-        {{ partial "helper/icon" "search" }}
-    </button>
-</form>
+    <form action="{{ .RelPermalink }}" class="search-form search-page-form"{{ with .OutputFormats.Get "json" -}} data-json="{{ .RelPermalink }}"{{- end }}>
+        <p>
+            <label>{{ T "search.title" }}</label>
+            <input name="keyword" placeholder="{{ T `search.placeholder` }}" />
+        </p>
 
-<div class="search-result">
-    <h3 class="search-result--title section-title"></h3>
-    <div class="search-result--list article-list--compact"></div>
-</div>
+        <button title="{{ T `search.title` }}">
+            {{ partial "helper/icon" "search" }}
+        </button>
+    </form>
+
+    <div class="search-result">
+        <h3 class="search-result--title section-title"></h3>
+        <div class="search-result--list article-list--compact"></div>
+    </div>
+</section>
 
 <script>
     window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"

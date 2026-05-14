@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on glowingsky</title>
-        <link>https://example.com/categories/</link>
+        <link>https://glowingsky.netlify.app/categories/</link>
         <description>Recent content in Categories on glowingsky</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 13 May 2026 15:21:59 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <copyright>glowingsky</copyright>
+        <lastBuildDate>Wed, 13 May 2026 15:21:59 +0800</lastBuildDate><atom:link href="https://glowingsky.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>随笔</title>
-        <link>https://example.com/categories/%E9%9A%8F%E7%AC%94/</link>
+        <link>https://glowingsky.netlify.app/categories/%E9%9A%8F%E7%AC%94/</link>
         <pubDate>Wed, 13 May 2026 15:21:59 +0800</pubDate>
         
-        <guid>https://example.com/categories/%E9%9A%8F%E7%AC%94/</guid>
+        <guid>https://glowingsky.netlify.app/categories/%E9%9A%8F%E7%AC%94/</guid>
         <description>&lt;img src="https://raw.githubusercontent.com/sduij/my_blog_img/refs/heads/main/gpt-image-2_AI%E4%BC%98%E5%8C%96.jpg" alt="Featured image of post 随笔" /&gt;</description>
         </item>
         

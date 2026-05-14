@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>随笔 on glowingsky</title>
-        <link>https://example.com/categories/%E9%9A%8F%E7%AC%94/</link>
+        <link>https://glowingsky.netlify.app/categories/%E9%9A%8F%E7%AC%94/</link>
         <description>Recent content in 随笔 on glowingsky</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 13 May 2026 15:21:59 +0800</lastBuildDate><atom:link href="https://example.com/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>zh-cn</language>
+        <copyright>glowingsky</copyright>
+        <lastBuildDate>Wed, 13 May 2026 15:21:59 +0800</lastBuildDate><atom:link href="https://glowingsky.netlify.app/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>奇迹的起点 ~ Origin of the Miracle</title>
-        <link>https://example.com/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</link>
+        <link>https://glowingsky.netlify.app/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</link>
         <pubDate>Wed, 13 May 2026 15:21:59 +0800</pubDate>
         
-        <guid>https://example.com/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</guid>
+        <guid>https://glowingsky.netlify.app/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</guid>
         <description>&lt;img src="https://raw.githubusercontent.com/sduij/my_blog_img/refs/heads/main/gpt-image-2_AI%E4%BC%98%E5%8C%96.jpg" alt="Featured image of post 奇迹的起点 ~ Origin of the Miracle" /&gt;&lt;blockquote&gt;
 &lt;p&gt;奇跡は、信じる者のためにある。&lt;/p&gt;
 &lt;/blockquote&gt;

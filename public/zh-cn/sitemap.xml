@@ -2,82 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://glowingsky.netlify.app/</loc>
     <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/"
+                href="https://glowingsky.netlify.app/en/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://example.com/"
+                hreflang="zh-cn"
+                href="https://glowingsky.netlify.app/"
                 />
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://glowingsky.netlify.app/categories/</loc>
     <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/categories/"
+                href="https://glowingsky.netlify.app/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://example.com/categories/"
+                hreflang="zh-cn"
+                href="https://glowingsky.netlify.app/categories/"
                 />
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://glowingsky.netlify.app/post/</loc>
     <lastmod>2026-05-13T15:21:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://glowingsky.netlify.app/tags/</loc>
     <lastmod>2026-05-13T15:21:59+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
+                href="https://glowingsky.netlify.app/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://example.com/ar/tags/"
+                hreflang="zh-cn"
+                href="https://glowingsky.netlify.app/tags/"
+                />
+  </url><url>
+    <loc>https://glowingsky.netlify.app/tags/%E6%A2%A6%E5%91%93%E7%9A%84%E6%AE%8B%E7%AF%87/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
+  </url><url>
+    <loc>https://glowingsky.netlify.app/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
+  </url><url>
+    <loc>https://glowingsky.netlify.app/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
+  </url><url>
+    <loc>https://glowingsky.netlify.app/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://glowingsky.netlify.app/en/page/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="https://example.com/tags/"
+                hreflang="zh-cn"
+                href="https://glowingsky.netlify.app/page/"
                 />
   </url><url>
-    <loc>https://example.com/tags/%E6%A2%A6%E5%91%93%E7%9A%84%E6%AE%8B%E7%AF%87/</loc>
-    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/p/%E5%A5%87%E8%BF%B9%E7%9A%84%E8%B5%B7%E7%82%B9-~-origin-of-the-miracle/</loc>
-    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-05-13T15:21:59+08:00</lastmod>
-  </url><url>
-    <loc>https://example.com/page/</loc>
+    <loc>https://glowingsky.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>https://glowingsky.netlify.app/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://glowingsky.netlify.app/%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>https://example.com/%E9%93%BE%E6%8E%A5/</loc>
-  </url><url>
-    <loc>https://example.com/search/</loc>
+    <loc>https://glowingsky.netlify.app/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://glowingsky.netlify.app/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://glowingsky.netlify.app/search/"
+                />
   </url>
 </urlset>
