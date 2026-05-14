@@ -22,11 +22,11 @@ languages:
                 subtitle: Example description
     zh-cn:
         languageName: 中文
-        title: 为了拯救世界，我决定成为...
+        title: glowingsky
         weight: 2
         params:
             sidebar:
-                subtitle: 我Chovy,TMD简介给我改好了呀！
+                subtitle: 为了拯救世界，我决定成为...
     ar:
         languageName: عربي
         languageDirection: rtl
@@ -57,7 +57,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: "/favicon.ico"  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: "/favicon2.ico"  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -69,7 +69,7 @@ params:
 
     sidebar:
         # emoji: 🍥
-        subtitle: 我Chovy,TMD简介给我改好了呀！
+        subtitle: 为了拯救世界，我决定成为...
         avatar:
             enabled: true
             local: false
