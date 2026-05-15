@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Deepwiki on glowingsky</title>
+        <link>https://glowingsky.netlify.app/tags/deepwiki/</link>
+        <description>Recent content in Deepwiki on glowingsky</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>glowingsky</copyright>
+        <lastBuildDate>Fri, 15 May 2026 10:55:22 +0800</lastBuildDate><atom:link href="https://glowingsky.netlify.app/tags/deepwiki/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>deekwiki系列番外--Zread</title>
+        <link>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%97%E7%95%AA%E5%A4%96--zread/</link>
+        <pubDate>Fri, 15 May 2026 10:55:22 +0800</pubDate>
+        
+        <guid>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%97%E7%95%AA%E5%A4%96--zread/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;开源项目用网页版https://zread.ai/即可&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;为什么用zreadcli&#34;&gt;为什么用ZreadCLI
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;要分析的是本地私有项目&lt;/li&gt;
+&lt;li&gt;中文支持好&lt;/li&gt;
+&lt;li&gt;安装很快，无复杂配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zreadcli是什么&#34;&gt;ZreadCLI是什么
+&lt;/h2&gt;&lt;p&gt;Zread CLI 面向本地代码库场景，帮助开发者在本地目录中直接生成项目文档。&lt;/p&gt;
+&lt;p&gt;它适合这些需求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;快速理解代码结构&lt;/li&gt;
+&lt;li&gt;为项目沉淀基础文档&lt;/li&gt;
+&lt;li&gt;为团队 onboarding 提供阅读入口&lt;/li&gt;
+&lt;li&gt;为 AI 编程工具提供更清晰的上下文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zreadcli怎么用&#34;&gt;ZreadCLI怎么用
+&lt;/h2&gt;&lt;h3 id=&#34;安装&#34;&gt;安装
+&lt;/h3&gt;&lt;p&gt;参考官方文档https://zread.ai/cli安装即可&lt;/p&gt;
+&lt;h3 id=&#34;配置及使用&#34;&gt;配置及使用
+&lt;/h3&gt;&lt;p&gt;进入项目目录，安装完首次输入命令zread会进行配置的引导；&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;选择中文&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选服务商时 虽然自定义，coding plan，智谱登录都行，
+但我推荐选自定义服务，用deepseek（便宜），模型选deepseek-v4-flash就行，智谱太贵了&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/sduij/my_blog_img/refs/heads/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-05-15%20102716.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;文档生成&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/sduij/my_blog_img/refs/heads/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-05-15%20102908.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;GLM5.1花费&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;光生成项目概述就花了我将近3块&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tips:  有的中转站虽然比deepseek还便宜，但是可能会遇到{&amp;ldquo;message&amp;rdquo;:&amp;ldquo;No tool call found for function cal&amp;rdquo;}的报错，
+这是因为zread 在生成 Wiki 时，需要调用大模型的“函数调用（Tool Call/Function Calling）”能力，而中转站可能
+不支持 zread 所需要的这种复杂函数调用格式，或者它中转的模型（比如旧版本 GPT-3.5）本身就不支持函数调用，导
+致返回的数据格式不对，zread 解析失败，于是报 400 Bad Request。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;配好后即可生成文档，生成完成后，文档会保存在项目目录下的 .zread/ 中：&lt;/li&gt;
+&lt;li&gt;然后可以用zread browse在浏览器中查看&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
+        <title>deekwiki系列01--初步了解</title>
+        <link>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%9701--%E5%88%9D%E6%AD%A5%E4%BA%86%E8%A7%A3/</link>
+        <pubDate>Fri, 15 May 2026 08:59:25 +0800</pubDate>
+        
+        <guid>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%9701--%E5%88%9D%E6%AD%A5%E4%BA%86%E8%A7%A3/</guid>
+        <description>&lt;h2 id=&#34;为什么需要deepwiki&#34;&gt;为什么需要DeepWiki
+&lt;/h2&gt;&lt;p&gt;在阅读 github 仓库代码时，每个开发者都经历过这样的痛苦：面对陌生的代码仓库，花几天时间逐行阅读代码、梳理逻辑，只为理解一个函数的作用或项目的架构设计。文档不全？那就更惨了。&lt;/p&gt;
+&lt;p&gt;现在，&lt;strong&gt;AI 正在终结这种低效模式&lt;/strong&gt;。由 Devin 团队推出的 DeepWiki，正以革命性的方式重构代码理解体验——只需将 github 链接中的“github.com”替换为“deepwiki.com”，一个&lt;strong&gt;动态、交互、智能的代码文档&lt;/strong&gt;便跃然眼前。&lt;/p&gt;
+&lt;h2 id=&#34;deepwiki-是什么不只是文档生成器&#34;&gt;DeepWiki 是什么？不只是文档生成器
+&lt;/h2&gt;&lt;p&gt;DeepWiki的核心定位是 &lt;strong&gt;AI 驱动的代码知识图谱构建器&lt;/strong&gt;。它通过多模态分析（代码结构、注释、提交历史等），将静态代码库转化为三维认知图谱，实现“代码即文档”的质变。&lt;/p&gt;
+&lt;p&gt;与传统人工阅读项目代码不同，DeepWiki 具备三大颠覆性能力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;动态文档生成&lt;/strong&gt;解决文档滞后问题，自动提取项目目标、技术栈、核心模块依赖关系，生成详细的文档。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;对话式AI助手&lt;/strong&gt;支持自然语言提问（如“如何实现用户鉴权？”），基于RAG技术结合代码上下文给出精准解答，并支持画流程图，时序图，业务架构图、技术架构图等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;深度研究模式&lt;/strong&gt;可执行代码审计、技术债务分析、跨仓库对比等高级任务，&lt;strong&gt;替代资深工程师的初级审查工作。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;deepwiki的使用方式&#34;&gt;DeepWiki的使用方式
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;访问 &lt;a class=&#34;link&#34; href=&#34;https://deepwiki.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://deepwiki.com/&lt;/a&gt;，输入开源的仓库名称或链接。如果没有你要找的开源仓库，可以手动添加仓库建立下索引。&lt;/li&gt;
+&lt;li&gt;也可以直接将 github.com 换成 deepwiki.com，比如： &lt;a class=&#34;link&#34; href=&#34;https://deepwiki.com/apache/hbase&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://deepwiki.com/apache/hbase&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;Windsurf(要汉化，不然全是英文)原生集成deepwiki,使用也很方便。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
+&lt;h2 id=&#34;deepwiki-open&#34;&gt;DeepWiki-Open
+&lt;/h2&gt;&lt;p&gt;开源仓库我们可以使用DeepWiki来提问，私有项目还是不能上传到网上的，怎么办呢？方案是已开源的&lt;strong&gt;DeepWiki-Open（&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AsyncFuncAI/deepwiki-open.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/AsyncFuncAI/deepwiki-open.git&lt;/a&gt;&lt;/strong&gt;）&lt;/strong&gt;，支持本地化部署。开发者可集成内部大模型，适配GitLab私有仓库，实现&lt;strong&gt;代码不出域的安全管控&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
+&lt;h2 id=&#34;zreadai能用但不好用&#34;&gt;Zread.ai（能用但不好用）
+&lt;/h2&gt;&lt;p&gt;Zread由智谱AI推出，原生支持中文，深度整合了&lt;strong&gt;文档生成&lt;/strong&gt;和&lt;strong&gt;智能问答&lt;/strong&gt;两大核心功能，同时还保留了你想要的自由提问能力。但能否平替deeepwiki还尚未可知，访问https://zread.ai/，即可使用。&lt;/p&gt;
+&lt;p&gt;缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网页版只能解读开源项目&lt;/li&gt;
+&lt;li&gt;CLI只能生成文档但不能随时提问&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;对于开源项目：deepwiki和zread都可以用
+对于私有项目：用DeepWiki-Open&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
