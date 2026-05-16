@@ -47,6 +47,7 @@ menu:
 一些工作流和方法论：
 
 - AI产品经理
-- 多Agent协作
+- 多Agent协作(ClaudeCode+GLM5.1)
 - Gemini+GPT共同完成项目
-- deepwiki
+- deepwiki-open
+- agent开发，以https://github.com/ConardLi/easy-agent为例

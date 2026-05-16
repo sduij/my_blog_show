@@ -8,11 +8,11 @@
         <language>zh-cn</language>
         <copyright>glowingsky</copyright>
         <lastBuildDate>Fri, 15 May 2026 10:55:22 +0800</lastBuildDate><atom:link href="https://glowingsky.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>deekwiki系列番外--Zread</title>
-        <link>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%97%E7%95%AA%E5%A4%96--zread/</link>
+        <title>deekwiki番外--Zread</title>
+        <link>https://glowingsky.netlify.app/p/deekwiki%E7%95%AA%E5%A4%96--zread/</link>
         <pubDate>Fri, 15 May 2026 10:55:22 +0800</pubDate>
         
-        <guid>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%97%E7%95%AA%E5%A4%96--zread/</guid>
+        <guid>https://glowingsky.netlify.app/p/deekwiki%E7%95%AA%E5%A4%96--zread/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;开源项目用网页版https://zread.ai/即可&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -79,11 +79,11 @@
 </description>
         </item>
         <item>
-        <title>deekwiki系列01--初步了解</title>
-        <link>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%9701--%E5%88%9D%E6%AD%A5%E4%BA%86%E8%A7%A3/</link>
+        <title>deekwiki</title>
+        <link>https://glowingsky.netlify.app/p/deekwiki/</link>
         <pubDate>Fri, 15 May 2026 08:59:25 +0800</pubDate>
         
-        <guid>https://glowingsky.netlify.app/p/deekwiki%E7%B3%BB%E5%88%9701--%E5%88%9D%E6%AD%A5%E4%BA%86%E8%A7%A3/</guid>
+        <guid>https://glowingsky.netlify.app/p/deekwiki/</guid>
         <description>&lt;h2 id=&#34;为什么需要deepwiki&#34;&gt;为什么需要DeepWiki
 &lt;/h2&gt;&lt;p&gt;在阅读 github 仓库代码时，每个开发者都经历过这样的痛苦：面对陌生的代码仓库，花几天时间逐行阅读代码、梳理逻辑，只为理解一个函数的作用或项目的架构设计。文档不全？那就更惨了。&lt;/p&gt;
 &lt;p&gt;现在，&lt;strong&gt;AI 正在终结这种低效模式&lt;/strong&gt;。由 Devin 团队推出的 DeepWiki，正以革命性的方式重构代码理解体验——只需将 github 链接中的“github.com”替换为“deepwiki.com”，一个&lt;strong&gt;动态、交互、智能的代码文档&lt;/strong&gt;便跃然眼前。&lt;/p&gt;
@@ -101,13 +101,11 @@
     &gt;https://deepwiki.com/&lt;/a&gt;，输入开源的仓库名称或链接。如果没有你要找的开源仓库，可以手动添加仓库建立下索引。&lt;/li&gt;
 &lt;li&gt;也可以直接将 github.com 换成 deepwiki.com，比如： &lt;a class=&#34;link&#34; href=&#34;https://deepwiki.com/apache/hbase&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://deepwiki.com/apache/hbase&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;Windsurf(要汉化，不然全是英文)原生集成deepwiki,使用也很方便。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
 &lt;h2 id=&#34;deepwiki-open&#34;&gt;DeepWiki-Open
 &lt;/h2&gt;&lt;p&gt;开源仓库我们可以使用DeepWiki来提问，私有项目还是不能上传到网上的，怎么办呢？方案是已开源的&lt;strong&gt;DeepWiki-Open（&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/AsyncFuncAI/deepwiki-open.git&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/AsyncFuncAI/deepwiki-open.git&lt;/a&gt;&lt;/strong&gt;）&lt;/strong&gt;，支持本地化部署。开发者可集成内部大模型，适配GitLab私有仓库，实现&lt;strong&gt;代码不出域的安全管控&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
+&lt;p&gt;具体使用方式详见《deekwiki核心&amp;ndash;DeepWiki-Open》&lt;/p&gt;
 &lt;h2 id=&#34;zreadai能用但不好用&#34;&gt;Zread.ai（能用但不好用）
 &lt;/h2&gt;&lt;p&gt;Zread由智谱AI推出，原生支持中文，深度整合了&lt;strong&gt;文档生成&lt;/strong&gt;和&lt;strong&gt;智能问答&lt;/strong&gt;两大核心功能，同时还保留了你想要的自由提问能力。但能否平替deeepwiki还尚未可知，访问https://zread.ai/，即可使用。&lt;/p&gt;
 &lt;p&gt;缺点：&lt;/p&gt;
@@ -115,10 +113,16 @@
 &lt;li&gt;网页版只能解读开源项目&lt;/li&gt;
 &lt;li&gt;CLI只能生成文档但不能随时提问&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;具体使用方式详见后文&lt;/p&gt;
+&lt;p&gt;具体使用方式详见《deekwiki番外&amp;ndash;Zread》&lt;/p&gt;
+&lt;h2 id=&#34;windsurf汉化更好用&#34;&gt;Windsurf(汉化更好用)
+&lt;/h2&gt;&lt;p&gt;Windsurf原生集成deepwiki,使用也很方便。Windsurf的deepwiki像一把“放大镜”🔍，在你阅读代码时，帮你逐个理解函数、变量、类。其实Windsurf是要Deepwiki+Codemaps+Cascade组合使用才能最好的理解代码。&lt;/p&gt;
+&lt;p&gt;具体使用方式详见《deekwiki番外&amp;ndash;Windsurf》&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结
-&lt;/h2&gt;&lt;p&gt;对于开源项目：deepwiki和zread都可以用
-对于私有项目：用DeepWiki-Open&lt;/p&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;对于开源项目：deepwiki和zread都可以用&lt;/li&gt;
+&lt;li&gt;对于私有项目：用DeepWiki-Open&lt;/li&gt;
+&lt;li&gt;Windsurf更适合读代码时快速理解局部内容&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -199,9 +203,10 @@
 &lt;/h2&gt;&lt;p&gt;一些工作流和方法论：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;AI产品经理&lt;/li&gt;
-&lt;li&gt;多Agent协作&lt;/li&gt;
+&lt;li&gt;多Agent协作(ClaudeCode+GLM5.1)&lt;/li&gt;
 &lt;li&gt;Gemini+GPT共同完成项目&lt;/li&gt;
-&lt;li&gt;deepwiki&lt;/li&gt;
+&lt;li&gt;deepwiki-open&lt;/li&gt;
+&lt;li&gt;agent开发，以https://github.com/ConardLi/easy-agent为例&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
